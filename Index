@@ -1,1 +1,7 @@
+<nav>
 /index.html
+<img src="mobile-grooming-banner.png" alt="Logo" style="height: 40px; vertical-align: middle;">
+  <a href="index.html">Home</a>
+  <a href="/Pages/about.html">About</a>
+  <a href="/Contact/contact.html">Contact</a>
+  <a href="/Services/services.html">Services</a>
