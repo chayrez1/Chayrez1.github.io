@@ -1,0 +1,35 @@
+/* Self-hosted font (assumes you have 'OpenSans-Regular.ttf' in /css/fonts/) */
+@font-face {
+  font-family: 'OpenSans';
+  src: url('/css/fonts/OpenSans-Regular.ttf') format('truetype');
+/* 1. Set body background color */
+body {
+  background-color: #f0f8ff;
+  font-family: 'OpenSans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* 2. Style for all h1 headers */
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+/* 3. Make all images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+* 4. Reusable button class */
+.btn-primary {
+  display: inline-block;
+  background-color: #3366cc;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+  background-color: #254b9c;
+}
