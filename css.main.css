@@ -33,3 +33,13 @@ img {
 .btn-primary:hover {
   background-color: #254b9c;
 }
+@media (max-width: 768px) {
+  nav a {
+    display: block;   /* stack links vertically */
+    margin: 8px 0;
+  }
+
+  body {
+    font-size: 1.2rem; /* slightly larger text for easier reading */
+  }
+}
